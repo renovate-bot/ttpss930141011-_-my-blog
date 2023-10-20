@@ -8,7 +8,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- See _data/csp.js for how to add to the CSP. 
+    <!-- See _data/csp.js for how to add to the CSP.
     Update me: Remove comment if you want a CSP.
     <meta http-equiv="Content-Security-Policy" content="{{ csp.regular | safe }}">
     -->
@@ -69,7 +69,7 @@
             <a href="{{ entry.url | url }}">{{ entry.title }}</a>
           {%- endfor %}
         </div>
-        <div id="reading-progress" aria-hidden="true"></div>
+        <!-- <div id="reading-progress" aria-hidden="true"></div> -->
       </nav>
       <h1>{{ title }}</h1>
       {% block extraArticleHeader %}{% endblock %}
@@ -93,8 +93,8 @@
         {% endif %}
       </article>
     </main>
-
     <footer>
+      <span>Copyright © 2023 JUSTINXIAO | All rights reserved.</span>
       <a href="/about/">{{ metadata.author.name }}</a>
     </footer>
 
