@@ -29,9 +29,9 @@
       <meta name="description" content="{{ desc | escape  }}">
       <meta property="og:description" content="{{ desc | escape }}">
     {% endif %}
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@{{ metadata.author.twitterHandle }}">
-    <meta name="twitter:creator" content="@{{ metadata.author.twitterHandle }}">
+    <meta name="instagram:card" content="summary_large_image">
+    <meta name="instagram:site" content="@{{ metadata.author.instagramHandle }}">
+    <meta name="instagram:creator" content="@{{ metadata.author.instagramHandle }}">
     {% if image %}
       <meta property="og:image" content="{{ image | absoluteUrl(metadata.url) }}">
     {% endif %}
@@ -65,11 +65,13 @@
         <div id="nav">
           <h1><a href="{{ '/' | url }}" title="Homepage">{{ metadata.title }}</a></h1>
           {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+          <div>
           {%- for entry in collections.all | eleventyNavigation %}
             <a href="{{ entry.url | url }}">{{ entry.title }}</a>
           {%- endfor %}
+          </div>
         </div>
-        <!-- <div id="reading-progress" aria-hidden="true"></div> -->
+        <div id="reading-progress" aria-hidden="true"></div>
       </nav>
       <h1>{{ title }}</h1>
       {% block extraArticleHeader %}{% endblock %}
@@ -94,7 +96,7 @@
       </article>
     </main>
     <footer>
-      <span>Copyright © 2023 JUSTINXIAO | All rights reserved.</span>
+      <span>Copyright © 2023 JUSTINXIAO</span>
       <a href="/about/">{{ metadata.author.name }}</a>
     </footer>
 

@@ -1,7 +1,7 @@
 {
   "title": "JUSTINXIAO",
-  "url": "https://update-me.com",
-  "domain": "update-me.com",
+  "url": "https://blog.justinxiao.app",
+  "domain": "blog.justinxiao.app",
   "description": "Hi, here is JUSTINXIAO's blog.",
   "genre": "Insert a schema.org genre",
   "googleAnalyticsId": "GA ID. Update me. Note, that this is not compatible with the not-yet-commonly used version 4 of Google Analytics",
@@ -10,15 +10,15 @@
     "subtitle": "Subtitle. Update me.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://update-me.com"
+    "id": "https://blog.justinxiao.app"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://update-me.com/feed/feed.json"
+    "url": "https://blog.justinxiao.app/feed/feed.json"
   },
   "author": {
     "name": "JUSTINXIAO",
-    "twitterHandle": "update_me"
+    "instagramHandle": "orange__maru"
   },
   "publisher": {
     "name": "JUSTINXIAO"

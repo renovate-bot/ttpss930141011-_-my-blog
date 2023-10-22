@@ -29,7 +29,7 @@ if (location.search) {
 
 function tweet_(url) {
   open(
-    "https://twitter.com/intent/tweet?url=" + encodeURIComponent(url),
+    "https://instagram.com/intent/tweet?url=" + encodeURIComponent(url),
     "_blank"
   );
 }

@@ -99,9 +99,11 @@ header aside {
 #nav {
   z-index: 2;
   position: relative;
-  width: 80%;
-  /* max-width: 70rem; */
-  /* border-bottom: 0.5px solid var(--primary-hr); */
+  width: 100%;
+  min-width: 15rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 #reading-progress {
@@ -418,17 +420,17 @@ h1 {
   margin-bottom: 0.5em;
 }
 h2 {
-  font-size: 2.5em;
+  font-size: 2.1em;
   line-height: 1.2;
   margin-bottom: 0.6em;
 }
 h3 {
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1.125;
   margin-bottom: 0.75em;
 }
 h4 {
-  font-size: 1.5em;
+  font-size: 1em;
   margin-bottom: 1em;
 }
 h4,
@@ -436,12 +438,12 @@ h5 {
   line-height: 1.5em;
 }
 h5 {
-  font-size: 1.25em;
+  font-size: 0.8em;
   margin-bottom: 1.2em;
 }
 h6 {
-  font-size: 1em;
-  line-height: 1.5em;
+  font-size: 0.5em;
+  line-height: 0.7em;
   margin-bottom: 1.5em;
 }
 body,
@@ -457,34 +459,6 @@ p,
 pre,
 ul {
   margin-bottom: 1.5em;
-}
-h1 {
-  font-size: 2.074rem;
-}
-h1,
-h2 {
-  line-height: 2.4rem;
-  margin-bottom: 1.36rem;
-}
-h2 {
-  font-size: 1.728rem;
-}
-h3 {
-  font-size: 1.4rem;
-}
-h3,
-h4 {
-  line-height: 1.6rem;
-  margin-bottom: 1.36rem;
-}
-h4 {
-  font-size: 1.2rem;
-}
-h5,
-h6 {
-  font-size: 1rem;
-  line-height: 1.6rem;
-  margin-bottom: 1.36rem;
 }
 body,
 ol,
@@ -510,28 +484,27 @@ ul {
     margin-bottom: 1.496rem;
   }
   h2 {
-    font-size: 2.7rem;
-    line-height: 2.7rem;
+    font-size: 2.4rem;
   }
   h3 {
-    font-size: 2.1989rem;
-    line-height: 2.64rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
     margin-bottom: 1.496rem;
   }
   h4 {
-    font-size: 1.5554rem;
+    font-size: 1.3rem;
   }
   h4,
   h5 {
-    line-height: 1.76rem;
+    line-height: 1.3rem;
     margin-bottom: 1.496rem;
   }
   h5,
   h6 {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
   }
   h6 {
-    line-height: 1.76rem;
+    line-height: 0.8rem;
     margin-bottom: 1.496rem;
   }
   body,
@@ -563,24 +536,24 @@ ul {
     line-height: 2.5rem;
   }
   h3 {
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
     margin-bottom: 1.632rem;
   }
   h4 {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
   h4,
   h5 {
-    line-height: 1.6rem;
+    line-height: 1.3rem;
     margin-bottom: 1.632rem;
   }
   h5,
   h6 {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
   h6 {
-    line-height: 1.2em;
+    line-height: 0.8em;
     margin-bottom: 1.632rem;
   }
   body,
@@ -657,11 +630,6 @@ h4,
 h5,
 h6 {
   font-family: var(--font-family);
-}
-h2,
-h4,
-h6 {
-  font-style: italic;
 }
 a {
   color: var(--primary-link);
@@ -896,7 +864,7 @@ header nav {
   top: 0;
   left: 0;
   width: 100vw;
-  padding: 1.5em 6em;
+  padding: 0.75em 1.5em;
   background: var(--primary);
   font-weight: 200;
   text-align: right;
@@ -916,14 +884,14 @@ header nav a {
   text-decoration: none;
   font-family: var(--font-family);
   color: var(--primary-light);
-  margin-left: 1.5em;
+  /* margin-left: 1.5em; */
 }
-header nav a:first-of-type {
+/* header nav a:first-of-type {
   margin-left: auto;
-}
-header nav a:last-of-type {
+} */
+/* header nav a:last-of-type {
   margin-right: 1.5em;
-}
+} */
 header nav label {
   color: #000;
   cursor: pointer;
@@ -940,7 +908,7 @@ main {
 footer {
   background: var(--primary);
   color: var(--primary-light);
-  padding: 3em;
+  padding: 1em;
   text-align: center;
 }
 footer > * {
@@ -985,8 +953,9 @@ dd + dt {
 }
 blockquote {
   border-left: 1px solid #f9c412;
-  padding: 0 1.5em;
-  margin: 1.5em 0 1.5em 1.5em;
+  padding: 0.05em 1em;
+  margin: 0.5em 0;
+  background-color: #2d2d2d;
 }
 blockquote footer {
   background: none;
@@ -1119,10 +1088,6 @@ button:not([disabled]):hover {
 
 dd + dt {
   border-top: 1px solid var(--primary);
-}
-
-blockquote {
-  border-left: 1px solid var(--primary);
 }
 
 mark {

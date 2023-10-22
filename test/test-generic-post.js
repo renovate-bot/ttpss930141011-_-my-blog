@@ -126,9 +126,9 @@ describe("check build output for a generic post", () => {
       expect(select("article time", "datetime")).to.equal("2018-05-01");
     });
 
-    it("should link to twitter with noopener", () => {
+    it("should link to instagram with noopener", () => {
       const twitterLinks = Array.from(doc.querySelectorAll("a")).filter((a) =>
-        a.href.startsWith("https://twitter.com")
+        a.href.startsWith("https://instagram.com")
       );
       for (let a of twitterLinks) {
         expect(a.rel).to.contain("noopener");
