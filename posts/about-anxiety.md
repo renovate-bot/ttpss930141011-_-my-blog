@@ -31,7 +31,7 @@ readtime: 14
 
 阿北是一個軟體技術人，也有豐富的廣告行銷經驗，接觸 UX 之後創業，現在是悠識數位 UX coach 兼創辦人。但他說，真實的他，是個53歲的阿北，有三個女兒，處於人生第二階段。
 
-![1-1](/img/remote/1-1.png)
+![1-1](/img/remote/about-anxiety/1-1.png)
 
 ## 談逃避
 
@@ -46,13 +46,13 @@ IKIGAI 是一個日本詞語，意思是「生活的目的」或「存在的價�
 IKIGAI 可以在個人的內心深處被發現，不一定要功成名就，也可以在日常生活的種種活動中體驗到。
 它可能體現在你的職業、興趣愛好、人際關係、家庭生活或者對社會的貢獻上。當你對某個活動或事物感到熱情並且感到它對你自己和他人有意義時，這可能是你的 IKIGAI 所在。重要的是要保持開放心態，並在生活中不斷尋找和培養屬於自己的 IKIGAI。
 
-![1-2-2](/img/remote/1-2-2.png)
+![1-2-2](/img/remote/about-anxiety/1-2-2.png)
 ref: 3 steps to find your ikigai, [source](https://www.theartofpureliving.com/3-steps-to-find-your-ikigai-lifes-purpose/)
 
 
 但其實少了一項，價值感都會大打折扣。
 
-![1-3-2](/img/remote/1-3-2.png)
+![1-3-2](/img/remote/about-anxiety/1-3-2.png)
 ref: Ikigai, [source](https://zoeyk.co/ikigai/)
 
 ## 追求 IKIGAI 是不是努力學習變強就好了？
@@ -64,7 +64,7 @@ ref: Ikigai, [source](https://zoeyk.co/ikigai/)
 
 ## 談焦慮
 
-![1-4](/img/remote/1-4.png)
+![1-4](/img/remote/about-anxiety/1-4.png)
 
 焦慮是人類的本能，也是為什麼人類這麼弱卻能活到現在成為地球霸主的原因。它有可能在任何時候出現，意識它，擁抱它，接受它，放下它。
 現代人的焦慮非常粗略的分成三種：人生焦慮、職涯焦慮、資訊焦慮。
@@ -116,7 +116,7 @@ ref: Ikigai, [source](https://zoeyk.co/ikigai/)
 
 焦慮是一種情緒，由生存本能引發，是正常現象。覺察不舒適 (焦慮感) 是成長的必然起點，最無效的方法就是跟自己或別人說：「不要焦慮！」。
 
-![1-5](/img/remote/1-5.png)
+![1-5](/img/remote/about-anxiety/1-5.png)
 
 > Action:
 探索自己內在焦慮的背後原因，認識自己的情緒，體驗自己的體驗
@@ -125,7 +125,7 @@ ref: Ikigai, [source](https://zoeyk.co/ikigai/)
 
 關心在意外部環境（弱連結人際關係）
 
-![1-6](/img/remote/1-6.png)
+![1-6](/img/remote/about-anxiety/1-6.png)
 
 1976年研究發表 《自私的基因》，人類的「利他」基因，在幫助他人之後能促進多巴胺，帶來良好感覺，有利於人類生存。人類是群體動物，大腦內建常態的社會性格。只要能幫助他人，大腦自然感到快樂！
 
@@ -148,15 +148,15 @@ ref: Ikigai, [source](https://zoeyk.co/ikigai/)
 
 在單純的古代，人類意識經由工具(interface)，去感知世界，手腳、鋤頭、槌子、弓箭...等，介面能力有限導致人類所能觸及的領域不多不廣。
 
-![1-7](/img/remote/1-7.png)
+![1-7](/img/remote/about-anxiety/1-7.png)
 
 複雜的近代，我們能利用科技、訊息、媒體更強大的工具去感知世界。
 
-![1-8](/img/remote/1-8.png)
+![1-8](/img/remote/about-anxiety/1-8.png)
 
 但由於工具的進步，抑或是我們過於依賴這些用來感知世界的介面，導致在我們的認知中，外部環境所帶來的資訊量膨脹得無可想像，在這個情況下，人類感受到渺小感。
 
-![1-9](/img/remote/1-9.png)
+![1-9](/img/remote/about-anxiety/1-9.png)
 
 改變習慣，斷開資訊科技，置入實體感受世界，切割數位環境，把自己放到實體，提高實體接觸程度，降低大腦與數位裝置的連結！
 
@@ -176,7 +176,7 @@ ref: Ikigai, [source](https://zoeyk.co/ikigai/)
 
 在研討會的現場，可以說大家都是有著各種焦慮的人，身在軟體行業，我們是第一個對於資訊首當其衝的一群人，印象最深刻的是最後，講者拿出了這本書的封面，
 
-![1-10](/img/remote/1-10.png)
+![1-10](/img/remote/about-anxiety/1-10.png)
 
 告訴大家「沒事的，沒關係，如果你感到焦慮，不表示你軟弱，不表示你失去價值，是正常人類反應。」
 
