@@ -6,7 +6,7 @@ tags:
   - MongoDB
   - Tech
 layout: layouts/post.njk
-readtime: 14
+readtime: 4
 ---
 
 我第一個完整設計 Schema 的專案是在 2021 年，當時我們使用的是 MongoDB，做的應用程式是關於測試資料的分析，我們的資料來源是從測試機器上的 STDF 檔案，經過 Parser，並將這些資料存到 MongoDB 裡面，以便我們之後可以進行分析。
